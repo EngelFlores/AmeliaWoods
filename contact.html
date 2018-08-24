@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="validate.js"></script>
+    <script src="map.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo triangulo" class="logo">
+        <div class="linksHeader">
+            <a href="home.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
+        </div>
+    </header>
+
+    <div class="contactGrid">
+        <div class="contact">
+            <h1>Contact Info:</h1>
+            <p>To give give beginning divide, cattle. Give moving won't, there the abundantly she'd she'd brought air upon.
+                Light hath subdue. Life days creature upon first heaven gathering dry.</p>
+            <p><strong>Address: </strong>10111 Santa Monica Boulevard, LA</p>
+            <p><strong> Phone: </strong>+44 987 065 908</p>
+            <p><strong>Email: </strong>info@Example.com</p>
+            <p><strong>Fax: </strong>+44 987 065 909</p>
+        </div>
+        <div>
+            <form class="formulario" action="" name="myForm" autofocus onsubmit="return validateForm()">
+                <div class="formularioContent">
+                    <input class="inputDividido" name="name" type="text" id="name" placeholder="Your Name">
+                    <input class="inputDividido" name="email" type="text" id="email" placeholder="Your Email">
+                </div>
+                <div class="formularioContent">
+                    <input class="inputIndividual" name="title" type="text" id="title" placeholder="Your Title">
+                </div>
+                <div class="formularioContent">
+                    <textarea class="textArea" name="comment" type="text" id="comment" cols="100" rows="100" placeholder="Your Comment"></textarea>
+                </div>
+                <input class="botao" type="submit" value="SEND MESSAGE">
+            </form>
+        </div>
+    </div>
+
+
+    <div id="map"></div>
+
+</body>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyAN4axL7SCnhq7ye-M2aQ56Znj9HtRac&callback=initMap">
+</script>
+
+</html>
