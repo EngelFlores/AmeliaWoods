@@ -1,6 +1,9 @@
 a:hover{
     color: #10c9c3;
 }
+a{
+    text-decoration:none; 
+}
 body{
     background-color:rgba(0,0,0,0.09);
     font-family: "Montserrat", sans-serif,Arial, Helvetica;
@@ -83,7 +86,7 @@ footer{
     background-color: #141414;
     height: 230px;
     color: white;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .footerFirstContent{
     display: flex;
@@ -91,6 +94,13 @@ footer{
     width: 300px;
     text-align: top;
     margin-top: 50px;
+    margin-left: 40px;
+}
+.footerList{
+    list-style-type:none;
+}
+.footerList a{
+    color: white;
 }
 .footerSecondContent{
     display: flex;
@@ -107,6 +117,7 @@ footer{
 .footerThirdContent{
     display: flex;
     margin-top: 50px;
+    margin-right: 40px;
 }
 .footerThirdContent ul{
     margin: 0;
@@ -114,9 +125,6 @@ footer{
 footer h2{
     font-size: 18px;
     margin: 0;
-}
-.footerList{
-    list-style-type:none;
 }
 .formularioContent{
     display:flex;
@@ -236,16 +244,18 @@ footer{
     flex-wrap: wrap;
 }
 .footerFirstContent{
-    max-width: 200px;
+    max-width: 150px;
     margin-top: 30px;
+    margin-left: 20px;
 }
 .footerSecondContent{
-    max-width: 200px;
+    max-width: 150px;
     margin-top: 30px;
+    margin-right: 20px;
 }
 .footerThirdContent{
     margin-top:10px;
-    margin-left: -30%;
+    margin-left: -20px;
 }
 footer h2{
     font-size: 12px;
