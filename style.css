@@ -81,18 +81,18 @@ body{
 footer{
     display: flex;
     background-color: #141414;
-    height: 200px;
+    height: 230px;
     color: white;
     justify-content: space-around;
 }
-.footerPrimeiroContent{
+.footerFirstContent{
     display: flex;
     flex-direction: column;
     width: 300px;
     text-align: top;
     margin-top: 50px;
 }
-.footerSegundoContent{
+.footerSecondContent{
     display: flex;
     flex-direction: column;
     text-align: top;
@@ -101,15 +101,15 @@ footer{
     border: 0;
     margin-top: 50px;
 }
-.footerSegundoContent p{
+.footerSecondContent p{
     margin: 0;
 }
-.footerTerceiroContent ul{
-    margin: 0;
-}
-.footerTerceiroContent{
+.footerThirdContent{
     display: flex;
     margin-top: 50px;
+}
+.footerThirdContent ul{
+    margin: 0;
 }
 footer h2{
     font-size: 18px;
@@ -222,7 +222,6 @@ p{
     width: 50%;
     height: 50%;
 }
-
 .contactGrid{
     display: grid;
     grid-template-columns: 1fr;
@@ -233,6 +232,30 @@ p{
     flex-wrap: wrap;
     padding: 30px;
 }  
+footer{
+    flex-wrap: wrap;
+}
+.footerFirstContent{
+    max-width: 200px;
+    margin-top: 30px;
+}
+.footerSecondContent{
+    max-width: 200px;
+    margin-top: 30px;
+}
+.footerThirdContent{
+    margin-top:10px;
+    margin-left: -30%;
+}
+footer h2{
+    font-size: 12px;
+}
+footer p{
+    font-size: 10px;
+}
+footer li{
+    font-size: 10px;
+}
 .formulario{
     padding: 10px;
     margin-right: 5px;
@@ -248,7 +271,6 @@ p{
 }
 }
 @media (min-width: 700px){
-    
 .contactGrid{
     display: grid;
     grid-template-columns: 1.5fr 2fr;
@@ -258,7 +280,8 @@ p{
     flex-direction: column;
     flex-wrap: wrap;
     padding: 70px;
-}  
+} 
+ 
 .formulario{
     padding: 30px;
     margin-right: 40px;
