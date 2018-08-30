@@ -3,6 +3,7 @@
 
 <head>
     <link type="text/css" rel="stylesheet" href="style/style.css">
+    <link type="text/css" rel="stylesheet" href="style/menu.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
         crossorigin="anonymous">
@@ -15,12 +16,27 @@
 
 <body>
     <header>
-        <img src="images/logo.png" alt="Logo triangulo" class="logo">
-        <div class="linksheader">
-            <a href="home.html">HOME</a>
-            <a href="about.html">ABOUT</a>
-            <a href="contact.html">CONTACT</a>
+        <div class="header_web">
+            <img src="images/logo.png" alt="Logo triangulo" class="logo">
+            <div class="linksheader">
+                <a href="home.html">HOME</a>
+                <a href="about.html">ABOUT</a>
+                <a href="contact.html">CONTACT</a>
+            </div>
         </div>
+        <nav class="header_mobile" role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <a href="home.html"><li>HOME</li></a>
+                    <a href="about.html"><li>ABOUT</li></a>
+                    <a href="contact.html"><li>CONTACT</li></a>
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <div class="contentvideo">
@@ -82,7 +98,7 @@
             <p>Given let waters air sea had you'll, may seed abundantly fish. Were, you'll earth forth winged above brought.
                 Own darkness they're him can't fourth sea place have. So the above May stars cattle fruitful face shall.
                 Tree it, winged. Every signs male firmament us. Morning him.</p>
-            <img src="images/signature.png" alt="">
+            <img class="gridimagem_texto--signature" src="images/signature.png" alt="">
         </div>
     </section>
     <footer>
